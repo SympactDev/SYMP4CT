@@ -697,8 +697,10 @@ function UILibrary.Load(GUITitle)
 		
 		return PageLibrary
 	end
-	
+	syn.protect_gui(MainFrame)
+
 	return TabLibrary
+
 end
 
 return UILibrary
